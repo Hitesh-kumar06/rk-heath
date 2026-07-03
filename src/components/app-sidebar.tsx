@@ -26,6 +26,7 @@ const items = [
 export function AppSidebar() {
   const navigate = useNavigate();
   const path = useRouterState({ select: (r) => r.location.pathname });
+  const { state } = useSidebar();
 
   async function signOut() {
     await supabase.auth.signOut();
@@ -39,7 +40,9 @@ export function AppSidebar() {
           <div className="h-8 w-8 rounded-lg bg-primary text-primary-foreground grid place-items-center">
             <HeartPulse className="h-4 w-4" />
           </div>
-          <div className="font-semibold text-sidebar-foreground">RK Health</div>
+          {state === "expanded" && (
+            <div className="font-semibold text-sidebar-foreground">RK Health</div>
+          )}
         </div>
       </SidebarHeader>
       <SidebarContent>
