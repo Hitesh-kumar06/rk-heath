@@ -82,10 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "RK Health — AI-powered patient reminders & health records" },
       { name: "description", content: "One dashboard for appointments, medication reminders, and AI-generated visit summaries." },
       { name: "author", content: "RK Health" },
-      { property: "og:title", content: "RK Health — AI-powered patient reminders" },
-      { property: "og:description", content: "Track appointments, medications, and AI visit summaries in one dashboard." },
+      { property: "og:title", content: "RK Health — AI-powered patient reminders & health records" },
+      { property: "og:description", content: "One dashboard for appointments, medication reminders, and AI-generated visit summaries." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "RK Health — AI-powered patient reminders & health records" },
+      { name: "twitter:description", content: "One dashboard for appointments, medication reminders, and AI-generated visit summaries." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/53eb7204-d280-4c00-8729-52dd97d880c7" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/53eb7204-d280-4c00-8729-52dd97d880c7" },
     ],
     links: [
       {
