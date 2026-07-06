@@ -19,6 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Multi-user authentication (email/password) with per-user RLS
 - Appointments CRUD with Google Calendar link generation
 - Medications management (dosage, schedule, active/inactive)
-- AI-powered visit summaries via Lovable AI Gateway (Gemini 3 Flash)
+- AI-powered visit summaries using Google Gemini 3 Flash
 - Printable health report aggregating all user data
 - Responsive dashboard with collapsible sidebar
